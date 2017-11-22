@@ -48,11 +48,11 @@
 		<button id="move">Move</button>
 	</div>
 	<script>
-		var $wrapper = $('.wrapper').stack();
+        var $wrapper = $('.wrapper').stack();
 		$('#move').click(function () {
 		    var cardNum = $('#cardNum').val();
 		    var newZ = $('#newZ').val();
-			$wrapper.setZ(cardNum,newZ, true);
+			$wrapper.setZ(cardNum,newZ);
         })
 	</script>
 </body>
